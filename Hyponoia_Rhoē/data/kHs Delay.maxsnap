@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "kHs Delay",
+	"origin" : "kHs Delay.vstinfo",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "kHs Delay.vstinfo",
+		"plugindisplayname" : "kHs Delay",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "625.CMlaKA....fQPMDZ....Ar1bjwFPBH.A....A........................................HPMPsz.DPA.Hf.B.TwZStE...............fB....yQWXzUlKpM2at091M8jvvfwAvOu8ovz3QBADQCdSS3.w2Hd0XVJaOLWrqkz0RjP36t8ksrg5Gg+WHoOuwu1c94XZBqVUPB1cWbLMIgUPa4Vgoo8bB6Rygcj6TelQg3hpbR1PYBU9W9za4hFpMGI4aDTgOrQaIlK3oQgoaiEOITHqTn13Z6u+WcIhiyAzJ3lJkzW569XIgFF1ReQwtb4LbcIY7S+TWneKqKdtUum5k4CwqUVo47XMJqNmBSLDoct.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L.Cv.L+KF+ueDxxj15mOae4b8k1s+cFkbv3Y0UeGNMd10KhQ1UIKy1ojk938qzGqfD7CYlp5P6WMd17Y2tXxr1l3xACMVpiAo4Fk1mostsDUrg2tAfimOr7BRppqjcML3X1zahENXQDccDi0bPlm42ewvSei6h5umrcZpI9h6KRxip6xtmzM9uOso2pz07vC7z1qivVVEtQSmLeZWW0jg20B2Z9LBc8xWV9zqqWcwCKeb08usxWc5oze.PszAHLKy+yxqA...WkC...0RAH...PA.Hf.B.TwZSt0rL+OKuF...bUN..fB......................vbzEFck4hZy8laPsTAF.....P..D..3....bd......."
+	}
+
+}
