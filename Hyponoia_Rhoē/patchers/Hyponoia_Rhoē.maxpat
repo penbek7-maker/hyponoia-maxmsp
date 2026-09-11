@@ -1231,7 +1231,7 @@
                             "expression": "themecolor.live_input_curve_color"
                         }
                     },
-                    "text": "D3"
+                    "text": "D5"
                 }
             },
             {
@@ -1251,7 +1251,7 @@
                             "expression": "themecolor.live_input_curve_color"
                         }
                     },
-                    "text": "D2"
+                    "text": "D3"
                 }
             },
             {
@@ -1893,7 +1893,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2752.1738605499268, 1007.4091422557831, 444.0, 22.0 ],
-                    "text": "preload 1 /Users/penelopebekiari/Desktop/hyponoia_generator/output/current.wav"
+                    "text": "preload 1 $1"
                 }
             },
             {
@@ -1923,10 +1923,10 @@
                     "id": "obj-289",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
                     "patching_rect": [ 2752.1738605499268, 847.8260707855225, 157.0, 22.0 ],
-                    "text": "OSC-route /generator/ready"
+                    "text": "OSC-route /generator/path /generator/ready"
                 }
             },
             {
@@ -16532,20 +16532,20 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-291", 0 ],
+                    "destination": [ "obj-294", 0 ],
                     "source": [ "obj-289", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-291", 0 ],
+                    "source": [ "obj-289", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-292", 0 ],
                     "source": [ "obj-291", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-294", 0 ],
-                    "source": [ "obj-292", 0 ]
                 }
             },
             {
