@@ -11,8 +11,9 @@ Start `generator_receiver.py` from the companion
 - Max sends `/generator/render D1`, `D3` or `D5` to `127.0.0.1:7401`.
 - Python returns the completed WAV path on `/generator/path` through port
   `7402`, followed by `/generator/ready`.
-- Max preloads the returned path dynamically with `preload 1 $1` and starts
-  playback only after the ready message.
+- Max stores the complete returned path (including paths with spaces). When
+  `/generator/ready` arrives, it opens that stored path in `sfplay~`, waits
+  100 ms for the file to be ready, and then starts playback.
 - Physiological OSC input remains independent on port `5001`.
 
 The complete Max → Python render → dynamic WAV path → Max playback round trip
@@ -20,6 +21,9 @@ was verified again with the release candidate on 11 September 2026. The three
 visible generator controls are labelled D1, D3 and D5 and send the matching OSC
 request. The dynamic return path replaces the previous machine-specific
 hard-coded `output/current.wav` path.
+
+Before publishing a Max project update, validate both distributed playback
+chains with `python3 tools/validate_generator_playback.py`.
 
 ## Notes
 
